@@ -1,0 +1,51 @@
+
+.nav{
+    position: sticky top;
+    
+}
+.main{
+    background-color: rgb(86, 160, 245);
+    height: 500px;
+}
+.main1{
+    background-color: orange;
+    height: 500px;
+}
+.h2{
+    background-color:  rgb(53, 53, 117);
+    border: 2px solid black;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+.about p{
+    text-align: justify;
+    word-spacing: 3px;
+}
+.a{
+    text-decoration: none;
+}
+.a:hover {
+    text-decoration: underline;
+}
+.link_name{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+.link_name::before{
+    position: absolute;
+    content: '';
+    bottom: -2px;
+    left: 0;
+    width: 35px;
+    height: 2px;
+    background: orange;
+}
+
+#Image:hover{
+    opacity: 0.5;
+}
